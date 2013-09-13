@@ -19,8 +19,6 @@ class PackageDevelopServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		$this->package('wvanbreukelen/package-develop');
-		// include __DIR__.'/../../routes.php';
-		$loader = \Illuminate\Foundation\AliasLoader::getInstance();
 		$this->PackageDevelop();
 
 	}
