@@ -1,0 +1,23 @@
+{
+    "name": "wvanbreukelen/package-develop",
+    "description": "Easy create your own classes/packages with the 'Package Develop' package",
+    "authors": [
+        {
+            "name": "wvanbreukelen",
+            "email": "ikwillerenprogrammeren@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/PackageDevelop"
+        ],
+        "psr-0": {
+            "Wvanbreukelen\\PackageDevelop": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
